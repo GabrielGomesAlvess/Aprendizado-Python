@@ -1,0 +1,10 @@
+num = int(input('Digite um numero inteiro: '))
+divisao = 0
+for i in range(1, num +1):
+    if num %i == 0:
+      print('\033[034m',end='')
+      divisao += 1
+    else:
+      print('\033[m',end='')
+    print('{} '.format(i), end='')
+print('\nO numero {} foi divido {} vezes'.format(num, divisao))

@@ -1,0 +1,21 @@
+cont = 0
+idade18 = 1
+menor18 = 1
+maior18 = 1
+
+while cont < 5:
+  idade = int(input('Qual é a sua idade?'))
+  cont += 1
+if idade == 18 : 
+   idade18 = idade18 + 1 
+  
+if idade < 18 : 
+   menor18 = menor18 + 1 
+ 
+if idade > 18 :
+   maior18 = maior18 + 1
+   
+   
+print(f'O numero de pessoas com 18 anos é de {idade18}')
+print(f'O numero de pessoas menor de 18 é de {menor18}')
+print(f'O numero de pessoas maior de 18 é de {maior18}')

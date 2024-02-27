@@ -1,0 +1,9 @@
+sexo = input ("Diga o seu sexo:\nDigite F para Feminino e M para Masculino ")
+if sexo == "F" or sexo == "f":
+   print("Feminino")
+  
+elif sexo == "M" or sexo == "m":
+   print("Masculino")
+   
+else:
+    print("Sexo inválido")

@@ -1,0 +1,30 @@
+
+# Faça um programa que receba a idade, altura e o peso de 25 pessoas, Calcule e mostre:
+
+# A quantidade de pessoas com idade superior a 50 anos;
+# A média das Alturas das pessoas com idade entre 10 e 20 anos
+# A porcentagem das pessoas com peso inferior a 40 quilos entre todas as pessoas analisadas.
+cont = 0 
+cont_idade = 0
+cont_altura = 0 
+cont_peso = 0
+
+while cont < 5:
+  cont_idadeidade = eval(input('diga a sua idade: '))
+  cont_alturaaltura = eval(input('diga a sua altura: '))
+  cont_pesopeso = eval(input('diga o seu peso: '))
+  
+if cont_idade > 50:
+   cont_idade += 1
+       
+     
+if cont_altura > 10 and cont_altura < 20:
+   cont_altura += 1
+   
+media=(cont_idade * cont_altura)/2
+print("A média das Alturas das pessoas com idade entre 10 e 20 anos é de", media)
+
+if cont_peso <= 40:
+   (cont_peso * cont)/ 100
+
+ 

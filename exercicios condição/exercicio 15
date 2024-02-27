@@ -1,0 +1,15 @@
+a=int(input("primeiro lado "))
+b=int(input("segundo lado "))
+c=int(input("terceiro lado "))
+
+if a + b > c or b + c > a or a + c > b:
+  print("\nÈ um triangulo")
+  
+if a == b and b == c and c == a:
+  print("Triângulo Equilátero") 
+  
+elif a == a or b == b or c == c: 
+  print("Triângulo isósceles")
+  
+else:
+    print("Triângulo Escaleno")

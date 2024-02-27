@@ -1,0 +1,19 @@
+# Faça um programa que calcule o número médio de alunos por turma.
+# Para isto, peça  a  quantidade  de  turmas  e  a  quantidade  de  alunos  para  cada  turma. 
+# As turmas não podem ter mais de 40 alunos.
+turmas = int(input('Diga o numero de turmas '))
+media = 0  
+ 
+for i in range ( 1, turmas +1):
+    alunos = int(input(f'Quantos alunos tem na turma {i}: '.format(i)))
+     
+    if alunos <= 40:
+     media = alunos
+    else:
+     print('\nQuantidade de alunos não suportada na turma')
+        
+    media = (alunos * turmas)/ i
+    qntAlunos = alunos * i 
+    
+print('\nA quantidade de alunos é de {}'.format(qntAlunos))
+print('\nA media de alunos é {}'.format(media))

@@ -1,0 +1,24 @@
+faixa1 = faixa2 = faixa3 = faixa4 = faixa5 = 0
+
+for i in range (15):
+    idade = int(input("Digite a sua idade:"))
+    
+    if idade <= 15:
+     faixa1 += 1 
+    
+    elif idade <= 30:
+     faixa2 += 1 
+    
+    elif idade <= 45:
+     faixa3 += 1 
+    
+    elif idade <= 60:
+     faixa5 += 1 
+    else: 
+        faixa5 +=1 
+        
+print('\n\nMenores de 15 anos:', faixa1)
+print('Entre 15 e 30 anos:', faixa2)
+print('Entre 30 e 45 anos:', faixa3)
+print('Entre 45 e 60 anos:', faixa4)
+print('Maiores de 60:', faixa5)

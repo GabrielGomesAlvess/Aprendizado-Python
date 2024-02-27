@@ -1,0 +1,22 @@
+salario = eval(input(" salario do colaborador "))
+if salario <= 280:
+ percentual = 20 
+ 
+elif salario <= 700:
+ percentual = 15
+ 
+elif salario <= 1500:
+ percentual = 15
+ 
+else:
+ percentual = 5
+ 
+print("Salario:", salario)
+print("aumento: ", percentual,"%")
+
+percentual = percentual/100
+aumento = salario * percentual
+novo_salario = salario + aumento 
+
+print("O aumento é de R$", aumento)
+print("\nO salario após o aumento é R$", novo_salario)

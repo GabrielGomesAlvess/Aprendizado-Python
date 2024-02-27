@@ -1,0 +1,8 @@
+CDs = int(input('Quantos cds o colecionador possui? '))
+total = 0
+
+for i in range(CDs):
+    valor = float(input('Digite o valor pago no cd: '))
+    total = total + valor
+    media = total/CDs
+print('Você possui {} CDs e a media é de R$ {}'.format(CDs, media))

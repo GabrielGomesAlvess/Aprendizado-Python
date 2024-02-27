@@ -1,0 +1,10 @@
+nota = input("Digite a sua nota: ")
+
+if nota >= "7":
+  print("Aprovado")
+ 
+elif nota == "10":
+  print("Aprovado com Distinção")
+  
+else:
+  print("Reprovado")

@@ -1,0 +1,29 @@
+cont50 = 0
+media10e20 = 0 
+cont10e20 = 0 
+p = 0 
+peso_menor40 = 0
+
+while p < 3:
+
+    idade = int(input("Digite a idade da pessoa"))
+
+    altura = float(input("Digite a altura da pessoa"))
+
+    peso = float(input("Digite o peso da pessoa"))
+    
+    if (idade > 50):
+        cont50 += 1 
+        
+    if idade > 10 and idade < 20:
+        media10e20 += altura
+        
+        cont10e20 += 1
+        
+    if peso_menor40 < 40:
+        peso_menor40 += 1 
+    p += 1 
+    
+print("pessoas maior que 50: ", cont10e20)
+print("Media de altura de pessoas com idade 10 a 20 anos:", media10e20/cont50)
+print("A porcentagem das pessoas com peso menor de 40 quilos", peso_menor40/5)    

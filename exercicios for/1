@@ -1,0 +1,4 @@
+tabuada=int(input("Tabuada do numero: "))
+
+for c in range(10):
+ print(tabuada*(c+1)) 
